@@ -1,5 +1,50 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: #0e7e12;
+    font-family: serif;
+    /* font-family: 'Playfair Display', serif; */
 
-body{
-    background: white;
+}
+
+.poker-card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-sizing: content-box;
+}
+
+
+.top-symbol,
+.bottom-symbol {
+    font-size: 3.5em;
+    font-weight: bold;
+    /* background-color: burlywood; */
+}
+
+.bottom-symbol {
+    transform: rotate(180deg);
+}
+.card-value {
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCard {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: .6rem 1.2rem;
+    border-radius: 8px;
+}
+
+.red-symbol {
+  color: red;
+}
+
+.black-symbol {
+  color: black;
 }
